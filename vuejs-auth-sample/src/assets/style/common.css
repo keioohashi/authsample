@@ -1,0 +1,363 @@
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #fd6767;
+    width: 100%;
+    background-color: #89c7de;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0%;
+    margin: 0px 0%;
+}
+
+
+.headerTitle{
+  height:100%;
+  padding: 0%;
+  margin:0%;
+  width:100px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.headerTop{
+  display: flex;
+  width: 100%;
+  height:100px;
+  padding: 0 4%;
+  background-color: lightblue;
+  justify-content: space-between;
+}
+
+.headerNav{
+  display: flex;
+  width: 100%;
+  height:90px;
+  padding: 0%;
+  justify-content: space-between;
+   maring:0%;
+}
+
+
+.header{
+  display: flex;
+  width: 100%;
+  height:90px;
+  padding: 0%;
+  justify-content: space-between;
+  maring: 0px 0%;
+}
+.a{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.b{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-weight:bold;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-right: 30px;
+    list-style: none;
+}
+.b li{
+  margin-left: 30px;
+}
+.b li a{
+    text-transform: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+.c{
+  text-align: center;
+  justify-content: center;
+}
+.c p{
+  font-size: 16px;
+  margin: 10px 0 42px;
+}
+.d{
+  font-size: 32px;
+  font-weight: normal;
+}
+.button{
+  border: solid 1px #000000;
+  //background-color: #dcdcdc;
+
+  border-radius: 5px;
+  width:100px;
+  text-decoration: none;
+}
+
+.button:hover{
+  background: #dcdcdc; /* è≠ÇµîZÇ¢óŒêF */
+  border: solid 1px #82ae46; /* è≠ÇµîZÇ¢óŒêF */
+}
+
+.button:active{
+  background: #a9a9a9; /* îZÇ¢óŒêF */
+}
+
+#home{
+  background-color: #fff;
+    position: relative;/*Å©ëäëŒà íu*/
+
+    box-sizing: border-box;/*Å©ëSÇƒä‹ÇﬂÇƒmin-height:100vhÇ…*/
+    width:100%;
+    height:100%;
+    margin: 0px 0%;
+    padding: 0px 0%
+}
+
+
+.operationDiv{
+	width:600px;
+margin: 0px 0%;
+padding: 0px 0%
+}
+
+.table{
+
+    overflow: auto;
+    font-size: 15px
+}
+	
+	
+table tbody tr:hover{
+	background-color: #fffae9;
+}
+
+table thead th {
+    border: 1px solid #2c3e50;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3F4551;
+    color: #fff;
+    position: sticky;
+    top: 0
+}
+
+table {
+    border-collapse: collapse;
+    background: #f5f5f5
+}
+
+table tbody td{
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+    width: 100px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-break:break-all
+}
+
+	.tddownload{
+		width:270px;
+	}
+	
+	.tdname{
+		width:200px;
+	}
+	
+	.tdname{
+		width:200px;
+	}
+	
+	.tdfilename{
+		min-width:200px;
+	}
+	
+	.tdminicenter{
+		min-width:70px;
+		text-align:center;
+	}
+
+	.tdminisortcenter{
+		min-width:90px;
+		text-align:center;
+	}
+
+	.tdfilesize{
+		min-width:80px;
+	}
+
+	.tdwatermark{
+		min-width:150px;
+	}
+
+	.tddate{
+		min-width:120px;
+	}
+
+	.tddatemonth{
+		min-width:90px;
+	}
+	
+	.tddate{
+		min-width:120px;
+	}
+
+	.tddremark{
+		min-width:200px;
+	}
+
+	
+	.tdmailnotice{
+		text-align:center;
+	}
+
+	
+	
+
+	
+	.contentMainDiv{
+		text-align:left;
+		margin-left:60px;
+		margin-top:40px;
+
+	}
+
+	.noticeDiv{
+		width:800px;
+		margin-left:10px;
+	}
+	
+
+	.userAllUpdateDiv{
+		border:solid 1px gray;
+		padding:20px;
+	}
+	.searchItemDiv{
+		width:375px;
+		overflow: hidden;
+		margin:2px;
+		vertical-align:middle;
+	}
+	.searchTitleDiv{
+    width: 172px;
+
+    height: 25px;
+
+    color: #000;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 5px;
+	}
+	.inputItemDiv{
+    width: 400px;
+
+    overflow: hidden;
+
+    margin: 2px;
+
+    vertical-align: middle
+	}
+	
+	.inputTitleDiv{
+    float: left;
+
+    width: 135px;
+
+    height: 25px;
+
+    background-color: #3F4551;
+
+    color: #fff;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 5px;
+	}
+	
+	.inputTitleDiv.inputAreaTitleDiv{
+		height:65px;
+	}
+	
+	.inputErrorTitleDiv{
+		float: left;
+		width:120px;
+		height:25px;
+	}
+
+	.inputDiv{
+		float: left;
+		width:250px;
+		height:25px;
+	}
+	
+	.input{
+		width:250px;
+		height:20px;
+	}
+	
+	.inputCalendar{
+		width:200px;
+		height:20px;
+	}
+
+	.inputArea{
+		width:250px;
+		height:60px;
+	}
+	
+	.inputSendMail{
+		width:500px;
+		height:20px;
+	}
+
+	.inputAreaSendMail{
+		width:500px;
+		height:300px;
+		font-size:14px;
+	}
+	
+	.inputread{
+		width:250px;
+		height:20px;
+		background-color: #ccc;
+	}
+	
+	.inputItemDiv.viewItemDiv{
+		width:600px;
+		display:flex;
+	}
+	 
+	.viewSendMail{
+		width:500px;
+		height:25px;
+		border: solid 1px;
+	}
+
+	.viewAreaSendMail{
+		width:500px;
+		height:300px;
+		border: solid 1px;
+		white-space: pre-line;
+		font-size:14px;
+	}
+	
+	.select{
+		width:257px;
+		height:25px;
+	}
+	
+	.button{
+		width:100px;
+	}
+	
+	.validateError{
+		color:red;
+		width:250px;
+		font-size:12px;
+	}
